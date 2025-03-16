@@ -504,7 +504,7 @@ Agents that follow only 1 course are:
 
 Chance that an agent X follow exactly one course is:
 
-   Agents1Course / TOT = 31 / 100 = 0,31% 
+    Agents1Course / TOT = 31 / 100 = 0,31% 
 
 ## c
 
@@ -567,36 +567,36 @@ We have to compute it like that since each attempt is indipendent with respect t
 
 We have 2 dice (6 faces each)
 
-1 dice : 1, 2, 3, 4, 5, 6
-2 dice : 1, 2, 3, 4, 5, 6
+    1 dice : 1, 2, 3, 4, 5, 6
+    2 dice : 1, 2, 3, 4, 5, 6
 
 We roll the dice 6 times and we have to select 2 numbers that must appear 3 times each.
 
-1 number: X
-2 number: Y
+    1 number: X
+    2 number: Y
 
 So to decide the 2 numbers that will be appear exactly 3 times each we have to compute:
 
-Combination (6, 2): 6*5*4*3*2*1 / 2 * (6-2) = 15
+    Combination (6, 2): 6*5*4*3*2*1 / 2 * (6-2) = 15
 
 At this point we need to understand wich 3 of the 6 rolls will output the first number (X)
 and wich the second (Y); for doing that we compute the combination of 3 on 6:
 
-Combination (6, 3) = 20
+    Combination (6, 3) = 20
 
 Now we can compute the number of right output:
 
-15 * 20 = 300
+    15 * 20 = 300
 
 This value must be divided for the total number of possible combinations from rolling effectively a dice 6 times.
 
 So the probability of rolling two numbers that each appear exactly three times is:
 
-300 / Tot
+    300 / Tot
 
-where Tot = 6*6*6*6*6*6 = 6^6 = 46.656
+    where Tot = 6*6*6*6*6*6 = 6^6 = 46.656
 
-so: 300 / 46.656 = 0,0064
+    so: 300 / 46.656 = 0,0064
 
 ## b
 
