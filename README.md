@@ -288,18 +288,24 @@ K must be < R
     -------------        R
     -----                K
 
-We have to compute the chance of the first R bits of contain exactly K ones.
+We have to compute the chance of the first R bits of containing exactly K ones.
 
-We first compute the combination of k elements on N (ones). ---> CKN
+We first compute the combination of k elements on N (ones).
 
-Then we compute the combination of the remaining (R - K) bits of containing just 0 bits (M). ---> CMRK
+    Combination(N, K)
 
-In the end we compute the total probability to choice R bits from the complete message (N + M).  ---> CRNM
+Then we compute the combination of the remaining (R - K) bits of containing just 0 bits (M).
+
+    Combination(M, R - K)
+
+In the end we compute the total probability to choice R bits from the complete message (N + M).
+
+    Combination(M+N, R)
 
 We have to combine all this pieces to compute the probability of having exactly K one's in the first
 R bits:
 
-	P(X = K) = (CKN * CMRK) / CRNM = ?
+	P(X = K) = (Combination(N, K) * Combination(M, R-K)) / Combination(M+N, R) = ?
 
 ho pensato di usare la formula della distribuzione binomiale ma non va bene (qua è senza rimpiazzo)
 
