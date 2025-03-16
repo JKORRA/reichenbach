@@ -709,6 +709,16 @@ So to compute the probability that K clues will be hashed in the first bucket we
 
 I decided to create a simple, sequential, and understandable code without functions that allows the solution to the problem.
 
+To run the code, you only need to have Python installed since no external libraries are used.
+Simply open the terminal in the Git repository and run the following command:
+
+    $ python excercise.py
+    OR
+    $ python3 excercise.py
+
+This depends on the installed version of Python.
+My suggestion is to install Python 3 if it's not already present.
+
     import random
 
     #variable that count how many times Moriarty wins
