@@ -307,8 +307,6 @@ R bits:
 
 	P(X = K) = (Combination(N, K) * Combination(M, R-K)) / Combination(M+N, R) = ?
 
-ho pensato di usare la formula della distribuzione binomiale ma non va bene (qua è senza rimpiazzo)
-
 ----------------------------------------------------------------------------------------------------
 
 # The Menagerie of Moriarty
