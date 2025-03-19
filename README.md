@@ -422,6 +422,8 @@ Now we compute the possible ways to distribute the balance among the 3 enterpris
     Combination (Balance + N enterprises -1, enterprises -1) = (11 + 3 -1, 3-1) = (13, 2)
     = 13! / (2! * (13-2)! ) = 78 --> E1
 
+&nbsp;
+
     Remove Enterprise 2
 
     Balance = 20M - (1M + 3M + 4M) = 12M
@@ -431,6 +433,8 @@ Now we compute the possible ways to distribute the balance among the 3 enterpris
     Combination (Balance + N enterprises -1, enterprises -1) = (12 + 3 -1, 3-1) = (14, 2)
     = 14! / ( 2! * (14-2)! ) = 91 --> E2
 
+&nbsp;
+
     Remove Enterprise 3
 
     Balance = 20M - (1M + 2M + 4M) = 13M
@@ -439,6 +443,8 @@ Now we compute the possible ways to distribute the balance among the 3 enterpris
 
     Combination (Balance + N enterprises -1, enterprises -1) = (13 + 3 -1, 3-1) = (15, 2)
     = 15! / ( 2! * (15-2)! ) = 105 --> E3
+
+&nbsp;
 
     Remove Enterprise 4
 
